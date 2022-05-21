@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: self-hosted #changed
     name: Check licenses
     steps:
       - uses: actions/checkout@v2
